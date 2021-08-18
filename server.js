@@ -9,13 +9,13 @@ class Server {
     }
 
     routes(){
-        this.app.get('/', function(req, res) {
-            res.send('Hola Maria bonita');
+        this.app.get("/", function(req, res) {
+            res.send("Hola Maria Luisa");
         });
     }
 
     listen(){
-        this.app.listen(this.PORT)
+        this.app.listen(this.port)
     }
 
 }
